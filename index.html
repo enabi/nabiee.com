@@ -89,6 +89,7 @@
 		@media only screen and (max-height: 940px) and (min-width: 1700px) {
 			.content {
 				flex-direction: row;
+				align-items: center
 			}
 		}
 		@media only screen and (max-width: 1300px) {
@@ -150,6 +151,11 @@
 			align-self: flex-start;
 			margin-left: 109px;
 		}
+		@media only screen and (max-height: 940px) and (min-width: 1700px) {
+			.contact {
+				align-self: flex-end;
+			}
+		}
 		@media only screen and (max-width: 1300px) {
 			.contact {
 				margin-left: 67px;
@@ -185,7 +191,7 @@
 			.contact__infos {
 				flex-direction: row;
 				margin-bottom: 0;
-				margin-right: 1em;
+				margin-left: 2em;
 			}
 			.contact__infos:before {
 				display: none;
@@ -209,6 +215,7 @@
 		@media only screen and (max-height: 960px) and (max-width: 1800px) and (min-width: 1000px) {
 			.contact__info + .contact__info {
 				margin-top: 0;
+				margin-left: 2em;
 			}
 		}
 		.contact__socials {
@@ -218,6 +225,7 @@
 		@media only screen and (max-height: 960px) and (max-width: 1800px) and (min-width: 1000px) {
 			.contact__socials {
 				flex-direction: row;
+				align-items: center;
 			}
 		}
 		.contact__social {
@@ -229,6 +237,7 @@
 		@media only screen and (max-height: 960px) and (max-width: 1800px) and (min-width: 1000px) {
 			.contact__social + .contact__social {
 				margin-top: 0;
+				margin-left: 2em;
 			}
 		}
 		.contact__socialIcon {
